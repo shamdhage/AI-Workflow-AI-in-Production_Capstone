@@ -35,3 +35,4 @@ from LoggerTests import *
 LoggerTestSuite = unittest.TestLoader().loadTestsFromTestCase(LoggerTest)
 
 MainSuite = unittest.TestSuite([LoggerTestSuite,ModelTestSuite,ApiTestSuite])
+

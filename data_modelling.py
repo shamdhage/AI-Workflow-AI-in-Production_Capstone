@@ -21,7 +21,6 @@ import xgboost as xgb
 
 from sklearn.metrics import mean_squared_error as mse
 
-
 #Load from 
 from data_ingestion import load_ts, engineer_features, TS_DIR
 from logger import _update_predict_log, _update_train_log

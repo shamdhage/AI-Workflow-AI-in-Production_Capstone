@@ -11,7 +11,6 @@ from datetime import date
 
 LOG_DIR = os.path.join('logs')
 
-
 def _update_train_log(tag, best_model, model_index, mse_score, data_shape, runtime,MODEL_VERSION,\
                      MODEL_VERSION_NOTE,test):
     """

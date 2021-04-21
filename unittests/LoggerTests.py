@@ -25,7 +25,6 @@ class LoggerTest(unittest.TestCase):
         self.assertTrue(os.path.exists(log_path))
 
 
-
     def test_02_predict(self):
         """
         test the predict functionality

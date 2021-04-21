@@ -35,8 +35,7 @@ class ModelTest(unittest.TestCase):
         for tag, model in models.items():
             self.assertTrue("predict" in dir(model))
             self.assertTrue("fit" in dir(model))
-        
-        
+                
     def test_03_predict(self):
         """
         test the predict function input

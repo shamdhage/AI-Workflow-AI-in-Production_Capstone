@@ -8,7 +8,6 @@ e.g.
 data = '{"key":"value"}'
 curl -X POST -H "Content-Type: application/json" -d "%s" http://localhost:8080/predict'%(data)
 """
-
 import sys
 import os
 import unittest

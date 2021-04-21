@@ -5,7 +5,6 @@ import os
 import re
 import time
 
-
 PROJECT_ROOT_DIR = '.'
 DATA_DIR = os.path.join('.', 'data','cs-train')
 TS_DIR = os.path.join('data', 'ts-data')

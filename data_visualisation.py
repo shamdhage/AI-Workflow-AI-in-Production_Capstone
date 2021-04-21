@@ -13,7 +13,6 @@ IMAGE_DIR = os.path.join('images')
 from data_ingestion import load_avvail_data
 
 
-
 def save_fig(figure_id):
     """
     Save Images as pdf.

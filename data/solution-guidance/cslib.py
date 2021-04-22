@@ -3,6 +3,7 @@
 collection of functions for the final case study solution
 """
 
+
 import os
 import sys
 import re
